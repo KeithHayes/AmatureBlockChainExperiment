@@ -38,4 +38,8 @@ A similar hash value '<!@#$k78PO*>' for future links is introduced in the block 
 
 In the mining operation the embedded CRC is computed over the entire block.
 
+When a block is accepted and entered into the shared database changing the CRC becomes impossible.  Making forgery impossible as a forgery must have identical low shine and low CRC values.
+
+I contend this is not possible.  Mining would have to be performed to detect the forgery.  The forgery might match for a while but a forgery should have at least one shine CRC pair with a lower value than the original.  Having a tail block in the cloud set to the CRC of the end block prevents it from being changed.
+
 

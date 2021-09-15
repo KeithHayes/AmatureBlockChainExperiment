@@ -32,7 +32,7 @@ int main( int argc, char *argv[] ) {
 		SDL_SetRenderDrawColor( gTextTexture.getRenderer(), 0xDA, 0xA5, 0x20, 0xFF );
 		SDL_RenderClear( gTextTexture.getRenderer() );
 		gTextTexture.render( ( SCREEN_WIDTH - gTextTexture.getWidth() ) / 2, ( SCREEN_HEIGHT - gTextTexture.getHeight() ) / 2 );
-		SDL_RenderPresent( gTextTexture.getRenderer() );
+		SDL_RenderPresent( gTextTexture.getRenderer());
 	}
 	result.showtable();
 	gTextTexture.close();

@@ -17,7 +17,7 @@ void LTexture::setFont(TTF_Font* font){ gFont = font;}
 void LTexture::init() {
 	SDL_Init( SDL_INIT_VIDEO );
 	SDL_SetHint( SDL_HINT_RENDER_SCALE_QUALITY, "1" );
-	gWindow = SDL_CreateWindow( "SDL Tutorial", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN );
+	gWindow = SDL_CreateWindow( "Mining for Block", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN );
 	gRenderer = SDL_CreateRenderer( gWindow, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC );
 	SDL_SetRenderDrawColor( gRenderer, 0xFF, 0xFF, 0xFF, 0xFF );
 	IMG_Init( IMG_INIT_PNG );
