@@ -60,54 +60,54 @@ include examples/CMakeFiles/blockminer.out.dir/flags.make
 examples/CMakeFiles/blockminer.out.dir/crc0x1d0f.cpp.o: examples/CMakeFiles/blockminer.out.dir/flags.make
 examples/CMakeFiles/blockminer.out.dir/crc0x1d0f.cpp.o: ../examples/crc0x1d0f.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kdog/Code/crc/libcrc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/blockminer.out.dir/crc0x1d0f.cpp.o"
-	cd /home/kdog/Code/crc/libcrc/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/blockminer.out.dir/crc0x1d0f.cpp.o -c /home/kdog/Code/crc/libcrc/examples/crc0x1d0f.cpp
+	cd /home/kdog/Code/crc/libcrc/build/examples && /usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/blockminer.out.dir/crc0x1d0f.cpp.o -c /home/kdog/Code/crc/libcrc/examples/crc0x1d0f.cpp
 
 examples/CMakeFiles/blockminer.out.dir/crc0x1d0f.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/blockminer.out.dir/crc0x1d0f.cpp.i"
-	cd /home/kdog/Code/crc/libcrc/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdog/Code/crc/libcrc/examples/crc0x1d0f.cpp > CMakeFiles/blockminer.out.dir/crc0x1d0f.cpp.i
+	cd /home/kdog/Code/crc/libcrc/build/examples && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdog/Code/crc/libcrc/examples/crc0x1d0f.cpp > CMakeFiles/blockminer.out.dir/crc0x1d0f.cpp.i
 
 examples/CMakeFiles/blockminer.out.dir/crc0x1d0f.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/blockminer.out.dir/crc0x1d0f.cpp.s"
-	cd /home/kdog/Code/crc/libcrc/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdog/Code/crc/libcrc/examples/crc0x1d0f.cpp -o CMakeFiles/blockminer.out.dir/crc0x1d0f.cpp.s
+	cd /home/kdog/Code/crc/libcrc/build/examples && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdog/Code/crc/libcrc/examples/crc0x1d0f.cpp -o CMakeFiles/blockminer.out.dir/crc0x1d0f.cpp.s
 
 examples/CMakeFiles/blockminer.out.dir/ltexture.cpp.o: examples/CMakeFiles/blockminer.out.dir/flags.make
 examples/CMakeFiles/blockminer.out.dir/ltexture.cpp.o: ../examples/ltexture.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kdog/Code/crc/libcrc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/CMakeFiles/blockminer.out.dir/ltexture.cpp.o"
-	cd /home/kdog/Code/crc/libcrc/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/blockminer.out.dir/ltexture.cpp.o -c /home/kdog/Code/crc/libcrc/examples/ltexture.cpp
+	cd /home/kdog/Code/crc/libcrc/build/examples && /usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/blockminer.out.dir/ltexture.cpp.o -c /home/kdog/Code/crc/libcrc/examples/ltexture.cpp
 
 examples/CMakeFiles/blockminer.out.dir/ltexture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/blockminer.out.dir/ltexture.cpp.i"
-	cd /home/kdog/Code/crc/libcrc/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdog/Code/crc/libcrc/examples/ltexture.cpp > CMakeFiles/blockminer.out.dir/ltexture.cpp.i
+	cd /home/kdog/Code/crc/libcrc/build/examples && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdog/Code/crc/libcrc/examples/ltexture.cpp > CMakeFiles/blockminer.out.dir/ltexture.cpp.i
 
 examples/CMakeFiles/blockminer.out.dir/ltexture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/blockminer.out.dir/ltexture.cpp.s"
-	cd /home/kdog/Code/crc/libcrc/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdog/Code/crc/libcrc/examples/ltexture.cpp -o CMakeFiles/blockminer.out.dir/ltexture.cpp.s
+	cd /home/kdog/Code/crc/libcrc/build/examples && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdog/Code/crc/libcrc/examples/ltexture.cpp -o CMakeFiles/blockminer.out.dir/ltexture.cpp.s
 
 examples/CMakeFiles/blockminer.out.dir/results.cpp.o: examples/CMakeFiles/blockminer.out.dir/flags.make
 examples/CMakeFiles/blockminer.out.dir/results.cpp.o: ../examples/results.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kdog/Code/crc/libcrc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object examples/CMakeFiles/blockminer.out.dir/results.cpp.o"
-	cd /home/kdog/Code/crc/libcrc/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/blockminer.out.dir/results.cpp.o -c /home/kdog/Code/crc/libcrc/examples/results.cpp
+	cd /home/kdog/Code/crc/libcrc/build/examples && /usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/blockminer.out.dir/results.cpp.o -c /home/kdog/Code/crc/libcrc/examples/results.cpp
 
 examples/CMakeFiles/blockminer.out.dir/results.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/blockminer.out.dir/results.cpp.i"
-	cd /home/kdog/Code/crc/libcrc/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdog/Code/crc/libcrc/examples/results.cpp > CMakeFiles/blockminer.out.dir/results.cpp.i
+	cd /home/kdog/Code/crc/libcrc/build/examples && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdog/Code/crc/libcrc/examples/results.cpp > CMakeFiles/blockminer.out.dir/results.cpp.i
 
 examples/CMakeFiles/blockminer.out.dir/results.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/blockminer.out.dir/results.cpp.s"
-	cd /home/kdog/Code/crc/libcrc/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdog/Code/crc/libcrc/examples/results.cpp -o CMakeFiles/blockminer.out.dir/results.cpp.s
+	cd /home/kdog/Code/crc/libcrc/build/examples && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdog/Code/crc/libcrc/examples/results.cpp -o CMakeFiles/blockminer.out.dir/results.cpp.s
 
 examples/CMakeFiles/blockminer.out.dir/tstcrc.cpp.o: examples/CMakeFiles/blockminer.out.dir/flags.make
 examples/CMakeFiles/blockminer.out.dir/tstcrc.cpp.o: ../examples/tstcrc.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kdog/Code/crc/libcrc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object examples/CMakeFiles/blockminer.out.dir/tstcrc.cpp.o"
-	cd /home/kdog/Code/crc/libcrc/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/blockminer.out.dir/tstcrc.cpp.o -c /home/kdog/Code/crc/libcrc/examples/tstcrc.cpp
+	cd /home/kdog/Code/crc/libcrc/build/examples && /usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/blockminer.out.dir/tstcrc.cpp.o -c /home/kdog/Code/crc/libcrc/examples/tstcrc.cpp
 
 examples/CMakeFiles/blockminer.out.dir/tstcrc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/blockminer.out.dir/tstcrc.cpp.i"
-	cd /home/kdog/Code/crc/libcrc/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdog/Code/crc/libcrc/examples/tstcrc.cpp > CMakeFiles/blockminer.out.dir/tstcrc.cpp.i
+	cd /home/kdog/Code/crc/libcrc/build/examples && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kdog/Code/crc/libcrc/examples/tstcrc.cpp > CMakeFiles/blockminer.out.dir/tstcrc.cpp.i
 
 examples/CMakeFiles/blockminer.out.dir/tstcrc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/blockminer.out.dir/tstcrc.cpp.s"
-	cd /home/kdog/Code/crc/libcrc/build/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdog/Code/crc/libcrc/examples/tstcrc.cpp -o CMakeFiles/blockminer.out.dir/tstcrc.cpp.s
+	cd /home/kdog/Code/crc/libcrc/build/examples && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kdog/Code/crc/libcrc/examples/tstcrc.cpp -o CMakeFiles/blockminer.out.dir/tstcrc.cpp.s
 
 # Object files for target blockminer.out
 blockminer_out_OBJECTS = \

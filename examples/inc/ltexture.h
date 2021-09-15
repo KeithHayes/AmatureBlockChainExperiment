@@ -34,7 +34,6 @@ class LTexture
 		void setFont(TTF_Font* font);
 		void loadText( std::string textureText );
 
-
 	private:
 		SDL_Texture* mTexture;
 		int mWidth;

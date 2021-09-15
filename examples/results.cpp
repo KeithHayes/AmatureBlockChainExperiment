@@ -12,7 +12,6 @@ Results::Results() {
     bestkey = 65535;
     bestshine = 255;
 }
-
 void Results::addblock(uint8_t shine, uint16_t crc_ccitt_1d0f_val) { 
     validblock candidate;
     candidate.shine = shine;
@@ -27,9 +26,8 @@ void Results::addblock(uint8_t shine, uint16_t crc_ccitt_1d0f_val) {
         if ((candidate.shine == bestshine)&&(candidate.crc_ccitt_1d0f_val < bestkey)) {
             bestkey = candidate.crc_ccitt_1d0f_val;
         }
-    }  // bool value returned - update best
+    }
     resultarray[(int)(shine)] = candidate;
-    // crc saved at the shine location
 }
 bool nopriorhit(validblock& candidate) {
     bool newmatch = true;
@@ -68,8 +66,6 @@ uint8_t Results::fetchshime() {
 }
 char* Results::getscreenstring() {
     sprintf(screenstring,"Hello World");
-    sprintf(screenstring, "BLOCK KEY = 0x%04" PRIX8  "  BLOCK SHINE = 0x%02" PRIX8, bestkey,bestshine);
-    //printf( "BLOCK SHINE (0x1d0f) = 0x%02" PRIX8 "  ", bestkey);
+    sprintf(screenstring, "BLOCK SHINE = 0x%02" PRIX8  "  BLOCK KEY = 0x%04" PRIX8, bestshine,bestkey);
     return screenstring;
-
 }

@@ -1,23 +1,19 @@
 #include "ltexture.h"
 
-
 LTexture::LTexture() {
 	mTexture = NULL;
 	mWidth = 0;
 	mHeight = 0;
 }
-
 LTexture::~LTexture() {
 	free();
 }
-
 SDL_Window* LTexture::getWindow(){ return gWindow; }
 SDL_Renderer* LTexture::getRenderer(){ return gRenderer; }
 TTF_Font* LTexture::getFont(){ return gFont; }
 void LTexture::LTexture::setWindow(SDL_Window* window){ gWindow = window;}
 void LTexture::setRenderer(SDL_Renderer* renderer){ gRenderer = renderer;}
 void LTexture::setFont(TTF_Font* font){ gFont = font;}
-
 void LTexture::init() {
 	SDL_Init( SDL_INIT_VIDEO );
 	SDL_SetHint( SDL_HINT_RENDER_SCALE_QUALITY, "1" );
@@ -30,12 +26,10 @@ void LTexture::init() {
 	SDL_Color textColor = { 0, 0, 0 };
 	loadFromRenderedText( "The quick brown fox", textColor );
 }
-
 void LTexture::loadText( std::string textureText ) {
 	SDL_Color textColor = { 31, 31, 31 };
 	loadFromRenderedText( textureText, textColor );
 }
-
 void LTexture::close() {
 	free();
 	TTF_CloseFont( gFont );
@@ -48,7 +42,6 @@ void LTexture::close() {
 	IMG_Quit();
 	SDL_Quit();
 }
-
 bool LTexture::loadFromFile( std::string path ) {
 	free();
 	SDL_Texture* newTexture = NULL;
@@ -71,7 +64,6 @@ bool LTexture::loadFromFile( std::string path ) {
 	mTexture = newTexture;
 	return mTexture != NULL;
 }
-
 bool LTexture::loadFromRenderedText( std::string textureText, SDL_Color textColor )
 {
 	free();
@@ -92,9 +84,7 @@ bool LTexture::loadFromRenderedText( std::string textureText, SDL_Color textColo
 	}
 	return mTexture != NULL;
 }
-
-void LTexture::free()
-{
+void LTexture::free() {
 	if( mTexture != NULL )
 	{
 		SDL_DestroyTexture( mTexture );
@@ -103,19 +93,15 @@ void LTexture::free()
 		mHeight = 0;
 	}
 }
-
 void LTexture::setColor( Uint8 red, Uint8 green, Uint8 blue ) {
 	SDL_SetTextureColorMod( mTexture, red, green, blue );
 }
-
 void LTexture::setBlendMode( SDL_BlendMode blending ) {
 	SDL_SetTextureBlendMode( mTexture, blending );
 }
-		
 void LTexture::setAlpha( Uint8 alpha ) {
 	SDL_SetTextureAlphaMod( mTexture, alpha );
 }
-
 void LTexture::render( int x, int y, SDL_Rect* clip, double angle, SDL_Point* center, SDL_RendererFlip flip ) {
 	SDL_Rect renderQuad = { x, y, mWidth, mHeight };
 	if( clip != NULL ) 	{
@@ -124,11 +110,9 @@ void LTexture::render( int x, int y, SDL_Rect* clip, double angle, SDL_Point* ce
 	}
 	SDL_RenderCopyEx( gRenderer, mTexture, clip, &renderQuad, angle, center, flip );
 }
-
 int LTexture::getWidth() {
 	return mWidth;
 }
-
 int LTexture::getHeight() {
 	return mHeight;
 }

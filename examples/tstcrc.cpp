@@ -12,7 +12,7 @@ int main( int argc, char *argv[] ) {
 	uint16_t crc_ccitt_1d0f_val;
 	
 	//std::string text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	//std::string text = "Medicare for All !";
+	//std::string text = "Medicare for All ! test string";
 	std::string text = "<@!7he0)bb&>Date 9/15/2021 Account #57398759343607: Groceries -$123.86 Gas -$74.35 Ebay Payment $123.09 (Account BALANCE $762.98) 'Money is a great servant and a bad master'.}<!@#$k78PO*>";
 	// The actual block:
 	//" | (0x1A)(0x23)(0x__)(0x__)(0x0_) | .....the above quoted message .....
@@ -27,7 +27,7 @@ int main( int argc, char *argv[] ) {
 	SDL_Event e;
 	while( !quit ) {
 		do {
-			minedstatus = newmessage.extendedcompute(0x1a24, 0x02);  // link with augmented byte
+			minedstatus = newmessage.extendedcompute(0x1a24, 0x02);  // Parent link with its augmented shine
 		} while (minedstatus == false);
 		result.addblock(newmessage.getshine(), newmessage.getblockkey());
 		result.getscreenstring();

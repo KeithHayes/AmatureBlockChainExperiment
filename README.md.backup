@@ -32,6 +32,6 @@ Adding a hash value '<@!7he0)bb&>' from the parent block would establish block p
 
 A similar hash value '<!@#$k78PO*>' for future links is introduced in the block.
 
-In the mining operation for the embedded CRC is computed over the entire block.
+In the mining operation the embedded CRC is computed over the entire block.
 
 

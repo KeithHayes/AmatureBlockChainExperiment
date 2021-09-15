@@ -29,5 +29,4 @@ private:
 	int charcount;
 };
 
-
 #endif 

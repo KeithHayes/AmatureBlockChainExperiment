@@ -1,6 +1,5 @@
 #include "crc0x1d0f.h"
 
-
 Crc0x1d0f::Crc0x1d0f(const char* message) {
     this->message = (char*)message;
     int count = 0;
@@ -32,8 +31,8 @@ bool Crc0x1d0f::extendedcompute(uint16_t link, uint8_t extra) {
     blocklinks[3] = (unsigned char)(rand() % 256);
     blocklinks[4] = (unsigned char)(rand() % 256);
     blocklinks[5] = (unsigned char)(rand() % 256);
-    uint16_t compval = uint16_t(blocklinks[2] << 8) + uint16_t(blocklinks[3]);
-    //printfs verify compval is constructed right
+    uint16_t compval = uint16_t(blocklinks[3] << 8) + uint16_t(blocklinks[4]);
+    //printfs to verify compval is constructed right
     //printf( "\nCRC-CCITT (0x1d0f) = 0x%04" PRIX8 "\n", blocklinks[2]);
     //printf( "\nCRC-CCITT (0x1d0f) = 0x%04" PRIX8 "\n", blocklinks[3]);
     //printf( "\nCRC-CCITT (0x1d0f) = 0x%04" PRIX16 "\n", compval);
