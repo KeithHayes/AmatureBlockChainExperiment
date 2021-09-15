@@ -13,7 +13,7 @@ int main( int argc, char *argv[] ) {
 	
 	//std::string text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	//std::string text = "Medicare for All !";
-	std::string text = "Date 9/15/2021 Account #57393607: Groceries -$123.86 Gas -$74.35 Ebay Payment $123.09 (Account BALANCE $762.98) 'Money is a great servant and a bad master'.}";
+	std::string text = "<@!7he0)bb&>Date 9/15/2021 Account #57393607: Groceries -$123.86 Gas -$74.35 Ebay Payment $123.09 (Account BALANCE $762.98) 'Money is a great servant and a bad master'.}<!@#$k78PO*>";
 	// The actual block:
 	//" | (0x1A)(0x23)(0x__)(0x__)(0x0_) | .....the above quoted message .....
 
