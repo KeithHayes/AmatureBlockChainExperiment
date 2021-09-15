@@ -18,13 +18,13 @@ Built using an SDL (Simple DirectMedia Layer) window and linked to the static li
 
 ## Goal
 
-A text block is constructed with an embedded 16 bit CRC (Cyclic Redundancy Check) and a data byte 'shine' that with the CRC makes a unique block signature.  The data byte and CRC are selected to be lowest in magnitude by the mining operation which provides a unique identifier.  Only the shiniest block has value, allowing a block to be checked.
+A text block is constructed with an embedded 16 bit CRC (Cyclic Redundancy Check) and a data byte 'shine' that with the CRC makes a unique block signature.  A data byte and valid CRC are selected to be lowest in magnitude by the mining operation resulting in a unique identifier.  Only the shiniest block(low shine low CRC) has value. Allowing a block to be checked.
 
-The project was built using Visual Studio Code with C++, CMake Plugins for a dev environment running Linux Mint 20.
+The project was built using Visual Studio Code with C++, CMake, Plugins for a dev environment running Linux Mint 20.
 
-First the static libcrc library was built in a directory.  Then in the examples folder 'example.cpp' was replaced by 'tstcrc.cpp' which contains my main() entry point.  the output file is found at:  /build/examples/blockminer.out after the project is built.
+First the static CRC library was built in a directory.  Then in its examples folder 'example.cpp' was replaced by 'tstcrc.cpp' which contains the entry point.  the output file is found at:  /build/examples/blockminer.out after the project is built.
 
-CMakeListsCMakeLists.txt files link in SDL libraries which must be present and libcrc.
+CMakeListsCMakeLists.txt files link in SDL libraries which must be present.
 
 This is not a practical example.  It is an experiment that creates a digital signature which identifies a text block as a valid member in a chain.
 
