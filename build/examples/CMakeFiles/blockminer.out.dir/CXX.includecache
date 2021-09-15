@@ -56,22 +56,14 @@ stdint.h
 crc0x1d0f.h
 /home/kdog/Code/crc/libcrc/examples/crc0x1d0f.h
 
-/home/kdog/Code/crc/libcrc/examples/ltexture.cpp
-ltexture.h
-/home/kdog/Code/crc/libcrc/examples/ltexture.h
-
-/home/kdog/Code/crc/libcrc/examples/results.cpp
-results.h
-/home/kdog/Code/crc/libcrc/examples/results.h
-
 /home/kdog/Code/crc/libcrc/examples/tstcrc.cpp
+cmath
+-
 SDL2/SDL.h
 -
 SDL2/SDL_image.h
 -
 SDL2/SDL_ttf.h
--
-cmath
 -
 crc0x1d0f.h
 /home/kdog/Code/crc/libcrc/examples/crc0x1d0f.h

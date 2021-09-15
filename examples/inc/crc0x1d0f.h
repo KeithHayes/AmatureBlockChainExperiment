@@ -9,8 +9,6 @@
 #include <stdlib.h>
 #include "../../include/checksum.h"
 
-/* "ABCDEFGHIJKLMNOPQRSTUVWXYZ" : CRC-CCITT (0x1d0f) = 0x4430  --  17456 */
-
 class Crc0x1d0f
 {
 public:
