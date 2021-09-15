@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../examples/inc/crc0x1d0f.h
+stdio.h
+-
+string
+-
+inttypes.h
+-
+sys/time.h
+-
+crc0x1d0f.h
+../examples/inc/crc0x1d0f.h
+../../include/checksum.h
+../include/checksum.h
+
+../examples/inc/results.h
+inttypes.h
+-
+stdio.h
+-
+string
+-
+vector
+-
+
+../include/checksum.h
+stddef.h
+-
+stdint.h
+-
+
+/home/kdog/Code/crc/libcrc/examples/tstcrc.cpp
+crc0x1d0f.h
+/home/kdog/Code/crc/libcrc/examples/crc0x1d0f.h
+results.h
+/home/kdog/Code/crc/libcrc/examples/results.h
+

@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++0x -O3 -DNDEBUG   CMakeFiles/crctest.dir/crc0x1d0f.cpp.o CMakeFiles/crctest.dir/results.cpp.o CMakeFiles/crctest.dir/tstcrc.cpp.o  -o crctest   -L/home/kdog/Code/crc/libcrc/lib  -Wl,-rpath,/home/kdog/Code/crc/libcrc/lib -lcrc 
