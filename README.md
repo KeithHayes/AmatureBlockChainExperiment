@@ -18,7 +18,7 @@ Built using an SDL (Simple DirectMedia Layer) window and linked to the static li
 
 ## Goal
 
-A text block is constructed with an embedded 16 bit CRC (Cyclic Redundancy Check) and a data byte 'shine' that with the CRC makes a unique block signature.  The data byte and CRC are selected to be lowest in magnitude by the mining operation which provides a unique identifier.  Only the shiniest coin has value allowing a block to be checked.
+A text block is constructed with an embedded 16 bit CRC (Cyclic Redundancy Check) and a data byte 'shine' that with the CRC makes a unique block signature.  The data byte and CRC are selected to be lowest in magnitude by the mining operation which provides a unique identifier.  Only the shiniest block has value, allowing a block to be checked.
 
 The project was built using Visual Studio Code with C++, CMake Plugins for a dev environment running Linux Mint 20.
 
